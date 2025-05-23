@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A94BEBE32DE0FF1400D4811D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94BEBE02DE0FF1400D4811D /* ContentView.swift */; };
+		A94BEBE42DE0FF1400D4811D /* GenPassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94BEBE12DE0FF1400D4811D /* GenPassApp.swift */; };
+		A94BEBE52DE0FF1400D4811D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94BEBDF2DE0FF1400D4811D /* Assets.xcassets */; };
+		A94BEBE82DE1028A00D4811D /* Signpass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94BEBE72DE1028A00D4811D /* Signpass.swift */; };
+		A94BEBEA2DE10FB200D4811D /* Pass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94BEBE92DE10FB200D4811D /* Pass.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		A94BEBDF2DE0FF1400D4811D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A94BEBE02DE0FF1400D4811D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A94BEBE12DE0FF1400D4811D /* GenPassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenPassApp.swift; sourceTree = "<group>"; };
+		A94BEBE72DE1028A00D4811D /* Signpass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signpass.swift; sourceTree = "<group>"; };
+		A94BEBE92DE10FB200D4811D /* Pass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pass.swift; sourceTree = "<group>"; };
 		A9FB432C2DE0FEC000AF5030 /* GenPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A9FB432E2DE0FEC000AF5030 /* GenPass */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GenPass;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A9FB43292DE0FEC000AF5030 /* Frameworks */ = {
@@ -29,10 +34,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A94BEBE22DE0FF1400D4811D /* GenPass */ = {
+			isa = PBXGroup;
+			children = (
+				A94BEBE12DE0FF1400D4811D /* GenPassApp.swift */,
+				A94BEBE72DE1028A00D4811D /* Signpass.swift */,
+				A94BEBE92DE10FB200D4811D /* Pass.swift */,
+				A94BEBDF2DE0FF1400D4811D /* Assets.xcassets */,
+				A94BEBE62DE0FF1800D4811D /* Views */,
+			);
+			path = GenPass;
+			sourceTree = "<group>";
+		};
+		A94BEBE62DE0FF1800D4811D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A94BEBE02DE0FF1400D4811D /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A9FB43232DE0FEC000AF5030 = {
 			isa = PBXGroup;
 			children = (
-				A9FB432E2DE0FEC000AF5030 /* GenPass */,
+				A94BEBE22DE0FF1400D4811D /* GenPass */,
 				A9FB432D2DE0FEC000AF5030 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +84,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				A9FB432E2DE0FEC000AF5030 /* GenPass */,
 			);
 			name = GenPass;
 			packageProductDependencies = (
@@ -109,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A94BEBE52DE0FF1400D4811D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A94BEBEA2DE10FB200D4811D /* Pass.swift in Sources */,
+				A94BEBE32DE0FF1400D4811D /* ContentView.swift in Sources */,
+				A94BEBE42DE0FF1400D4811D /* GenPassApp.swift in Sources */,
+				A94BEBE82DE1028A00D4811D /* Signpass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
